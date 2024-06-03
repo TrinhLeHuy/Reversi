@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,15 +22,26 @@ public class MainActivity extends AppCompatActivity {
 
     private String playerOneName;
     private String playerTwoName;
+    private TextView playerOneTextView;
+    private TextView playerTwoTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Ánh xạ TextViews từ layout
+        playerOneTextView = findViewById(R.id.PlayerOneName);
+        playerTwoTextView = findViewById(R.id.PlayerTwoName);
+
         Intent intent = getIntent();
         playerOneName = intent.getStringExtra("playerOneName");
         playerTwoName = intent.getStringExtra("playerTwoName");
+
+
+        // Đặt văn bản cho TextViews
+        playerOneTextView.setText(playerOneName);
+        playerTwoTextView.setText(playerTwoName);
 
         initGameBoard();
     }
