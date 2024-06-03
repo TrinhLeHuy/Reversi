@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nengame"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_alignParentTop="true"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/PlayerOnelayout"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/white_box" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Player One"
+            android:id="@+id/PlayerOneName"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/lavender"
+            android:maxLines="1"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/coden"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:id="@+id/PlayerTwolayout"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/white_box" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Player Two"
+            android:id="@+id/PlayerTwoName"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/lavender"
+            android:maxLines="1"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cotrang"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/container"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8.2">
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image1"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:layout_marginTop="10dp"
+
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image2"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image3"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image4"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image5"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image6"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image7"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image8"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8.2">
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image9"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image10"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image11"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image12"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image13"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image14"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image15"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image16"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8.2">
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image17"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image18"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image19"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image20"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image21"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image22"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image23"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image24"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8.2">
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image25"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image26"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image27"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image28"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image29"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image30"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image31"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image32"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8.2">
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image33"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image34"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image35"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image36"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image37"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image38"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image39"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image40"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8.2">
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image41"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image42"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image43"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image44"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image45"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image46"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image47"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image48"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8.2">
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image49"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image50"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image51"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image52"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image53"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image54"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image55"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image56"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8.2">
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image57"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image58"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image59"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image60"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image61"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image62"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image63"
+                android:layout_weight="1"
+                android:background="@drawable/banco2"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:id="@+id/image64"
+                android:layout_weight="1"
+                android:background="@drawable/banco1"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
